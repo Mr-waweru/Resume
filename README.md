@@ -12,8 +12,8 @@ This workflow provides a seamless and automated way to manage, maintain, and sha
 
 You can view or download the latest compiled PDF here:
 
-[Download Resume (PDF)](./resume.pdf)
+[View Resume (PDF)](./resume.pdf)
 
-[Download Resume (PDF)](https://github.com/your-Mr-waweru/Resume/raw/main/resume.pdf)
+[Download Resume (PDF)](https://github.com/Mr-waweru/Resume/raw/main/resume.pdf)
 
 ---
