@@ -1,0 +1,127 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,        
+    citecolor=black,
+    pdfborderstyle={/S/U/W 1}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\huge \textbf{George Gitau}} \\
+    \smallskip
+     \faEnvelope\ \href{mailto:gitaugeorge001@gmail.com}{gitaugeorge001@gmail.com} \quad
+     \faGithub\ \href{https://github.com/Mr-waweru}{Mr-waweru} \quad
+     \faLinkedin\ \href{https://www.linkedin.com/in/mr-gitau/}{George Gitau} \\
+    \smallskip
+     \faMapMarker\ Nairobi, Kenya \quad \faMobile\ +254 700 149 810
+\end{center}
+\smallskip
+
+\section*{Summary}
+Motivated backend developer with strong skills in Python, Django Rest Framework (DRF) and database design. Completed the ALX Software Engineering program, specializing in backend engineering and scalable API development. Also certified in CS50’s Web Programming with Python and JavaScript (Harvard), with hands-on experience in Django, Asynchronous JavaScript with dynamic DOM manipulation and Database
+Management. Eager to apply problem-solving and technical skills to real-world challenges in a professional environment.
+
+\section*{Programming Hard Skills}
+\resumeSubHeadingListStart
+  \item{
+    \textbf{Languages}{: Python, SQL, PostgreSQL, HTML, CSS}
+  }
+  \item{
+    \textbf{Technologies}{: Django}
+  }
+  \item{
+    \textbf{Others}{: Version Control (Git and GitHub), Security and Authentication}
+  }
+\resumeSubHeadingListEnd
+
+\section*{Soft Skills}
+Problem-solving and critical thinking, Collaboration and teamwork, Attention to detail and accuracy, Communication and interpersonal thinking, Time management and prioritization, Continuous learning and improvement, Self-motivation and initiative, Organization and planning, Adaptability and Flexibility.
+
+\section*{Projects}
+\resumeSubHeadingListStart
+   \resumeItem{\href{https://github.com/Mr-waweru/Custom-E-Commerce-API.git}{Custom E-Commerce API}}{Developed a \textbf{scalable and secure API} for customized e-Commerce solutions customized for small businesses. Implemented support for \textbf{coupon codes and integrated Stripe and M-Pesa} for seamless payments. Designed real-time inventory updates and \textbf{webhook-driven payment tracking}, improving transaction efficiency.}
+   \resumeItem{\href{https://github.com/Mr-waweru/UniStay.git}{UniStay}}{UniStay is a web-based platform designed to assist university students in Kenya find suitable off-campus hostel accommodations. Since some universities do not provide sufficient or affordable housing, forcing students to locate private hostels, often far from their home regions. This process can be cumbersome, especially for first-year students unfamiliar with the area. UniStay bridges this gap by providing a comprehensive listing of available hostels near universities.}
+\resumeSubHeadingListEnd
+
+\section*{Education And Certifications}
+\begin{itemize}[leftmargin=0.15in]
+  \item \textbf{\href{https://intranet.alxswe.com/certificates/CGeSsTnfPR}{Backend Web Development}} \hfill \textit{ALX Software Engineering}\\
+    \begin{itemize}
+      \textbf{Related course work: }Mastered computer science fundamentals with Python and Django, Database Management with SQL and Postgres, Backend Programming with Django REST framework; solving real-world problem sets.
+    \end{itemize}
+    \item \textbf{\href{https://certificates.cs50.io/9e725d06-1c5a-40a4-8bf4-f53c6fc59991.pdf?size=letter}{CS50W - Web Programming with Python and JavaScript}} \hfill \textit{Harvard University}\\
+    \begin{itemize}
+      \textbf{Related course work: }Asynchronous JavaScript with dynamic DOM manipulation using AJAX techniques, Back-end programming with Django; Applying concepts to real-world use cases.
+    \end{itemize}
+\end{itemize}
+
+\section*{Activities And Leadership}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Code Bandits}{Nairob, Kenya}
+    {Team Leader}{Sep 2024 -- Jan 2025}
+    \begin{itemize}
+      \item Led a team of six back-end students, effectively managing task allocation and meeting project deadlines.
+      \item Presented group projects to instructors, receiving positive feedback for organization and technical quality. This leadership resulted in improved collaboration and an over 85\% completion rate of all assigned tasks.
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+\end{document}
